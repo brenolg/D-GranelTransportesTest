@@ -27,8 +27,8 @@ Inicie o SQL com o docker:
 ```bash
 docker container run --name mysqldb -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql:5.7
 ```
-Entre no diretorio backend
-Instale as dependências usando:
+Entre no diretorio backend e
+instale as dependências usando:
 ```bash
 npm install
 ```
@@ -41,8 +41,8 @@ Inicie o servidor com:
 npm start
 ```
 
-Entre no diretorio frontend
-Instale as dependências usando:
+Entre no diretorio frontend e
+instale as dependências usando:
 ```bash
 npm install
 ```
