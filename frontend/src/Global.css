@@ -1,0 +1,86 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Roboto , sans-serif;
+  margin: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+main {
+  margin: 3rem auto;
+  width: 90%;
+  box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 1.5rem;
+  border: 0.1rem solid black;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: gray;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input {
+  padding: 1em;
+  font-size:1.6rem;
+  border-radius: 1rem;
+  transition: 0.3s all ease;
+  outline: none;
+  letter-spacing: 0.05ch;
+  background: none;
+}
+
+input:focus, select:focus {
+  box-shadow: 0 0 6px black ;
+}
+
+select {
+  padding: 1em;
+  outline: none;
+  font-size:1.6rem;
+  border-radius: 1rem;
+  transition: 0.3s all ease;
+  letter-spacing: 0.05ch;
+}
+
+option {
+  padding: 1em;
+  font-size:1.6rem;
+  border-radius: 1rem;
+}
